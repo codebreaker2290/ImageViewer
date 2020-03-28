@@ -1,0 +1,13 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Rotate -->
+    <alpha
+        android:duration="5000"
+        android:fromAlpha="1.0"
+        android:toAlpha="0">
+    </alpha>
+    <translate android:fromXDelta="0%" android:toXDelta="100%"
+        android:duration="4100"
+        android:interpolator="@android:anim/linear_interpolator" />
+    <!--  Up and down bob -->
+
+</set>

@@ -1,0 +1,12 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha
+        android:duration="5000"
+        android:fromAlpha="0.1"
+        android:toAlpha="1">
+    </alpha>
+    <translate android:fromXDelta="+100%" android:toXDelta="0%"
+        android:duration="4100"
+        android:interpolator="@android:anim/linear_interpolator" />
+    <!--  Up and down bob -->
+
+</set>
